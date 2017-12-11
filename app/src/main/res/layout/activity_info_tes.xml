@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bagasriko82.teskepribadian.InfoTesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/HakCipta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Hak Cipta"/>
+
+        <TextView
+            android:id="@+id/keteranganHakCipta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HakCipta"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Keterangan Hak Cipta"/>
+
+        <TextView
+            android:id="@+id/apaItuKepribadian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/keteranganHakCipta"
+            android:layout_marginTop="100dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Apa Itu Kepribadian"
+            android:onClick="pencarian1"/>
+
+
+        <TextView
+            android:id="@+id/ciriCiriKepribadian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/apaItuKepribadian"
+            android:layout_marginTop="50dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Ciri - Ciri Kepribadian"
+            android:onClick="pencarian2"/>
+
+
+        <TextView
+            android:id="@+id/ThanksTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/apaItuKepribadian"
+            android:layout_marginTop="100dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Terima kasih kepada"
+            />
+
+
+        <TextView
+            android:id="@+id/nama1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ThanksTo"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Bagaskara Riko P"
+            android:onClick="pencarian3"
+            />
+
+        <TextView
+            android:id="@+id/nama2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama1"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Edwin Aji P"
+            android:onClick="pencarian4"
+            />
+
+        <TextView
+            android:id="@+id/nama3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:fontFamily="monospace"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="Shafa Mantasya"
+            android:onClick="pencarian5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nama3"
+            android:layout_centerHorizontal="true"
+            android:text="For his time and patience"
+            android:id="@+id/line1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:text="Without them this app would never have been finished"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/line2"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="5dp"
+            android:text="Menu"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/MainMenu"/>
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>
